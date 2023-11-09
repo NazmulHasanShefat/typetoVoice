@@ -86,3 +86,37 @@ body{
     width:18px;
     margin-top:4px;
 }
+@media screen and (max-width:558px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .content-container{
+        width: 90%;
+        height: max-content;
+    }
+    .content-box{
+        height: 300px;
+        width: 100%;
+    }
+    .button-container{
+        height:max-content;
+        width:100%;
+    }
+    .input-container{
+        width:100%;
+    }
+    #input-text{
+        height:auto;
+        width:90%;
+        font-size:1rem;
+     }
+     .header-container{
+       margin-bottom:20px;
+       font-size:.8rem;
+    }
+   select{
+    font-size:.8rem;
+    width:100%;
+   }
+}
